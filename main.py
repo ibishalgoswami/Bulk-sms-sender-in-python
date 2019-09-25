@@ -1,5 +1,4 @@
 import requests
-import time
 x=list(input('enter the bulk numbers').split(','))
 
 URL = 'https://www.way2sms.com/api/v1/sendCampaign'
@@ -22,12 +21,3 @@ while len(x)!=0:
     count=count+1
     if len(x)>count:
         break
-time.sleep(5)
-
-
-
-
-
-
-
-
